@@ -37,9 +37,273 @@
   margin-left: 0.3rem;
 }
 
-.header-right{
+.header-right {
   display: flex;
-    justify-content: space-evenly;
-    width: 20%;
-    align-items: center;
+  justify-content: space-evenly;
+  width: 20%;
+  align-items: center;
 }
+
+.banner {
+  background-color: #161615;
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.banner-header-text {
+  color: #FFF;
+  /* Body text 14 */
+  font-family: Work Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.5rem
+}
+
+.banner-header-line {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.banner-header-nav {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: left;
+  margin-bottom: 2rem;
+}
+
+.nav-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.nav-item {
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-text1 {
+  color: #FFF;
+  /* H1 title */
+  font-family: Syne;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  width: 76%;
+  z-index: 2;
+}
+
+.banner-text2 {
+  width: 60%;
+  z-index: 2;
+}
+
+.banner-text3 {
+  color: #FFF;
+  /* H1 title */
+  font-family: Syne;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  width: 70%;
+  z-index: 2;
+}
+
+.orange-box {
+  background: var(--Pimary-colour, #F07E15);
+  width: 62.97rem;
+  height: 18rem;
+  flex-shrink: 0;
+  position: absolute;
+  top: 8rem;
+  left: 16rem;
+  z-index: 1;
+}
+
+.man {
+  position: absolute;
+  z-index: 3;
+  height: 20rem;
+  top: 7.64rem;
+  left: 39rem;
+}
+
+.star {
+  position: absolute;
+  z-index: 2;
+  left: 42rem;
+  top: 0rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+
+}
+
+.new-product-text {
+  color: var(--Grey-scale-1000, #000);
+  /* H2 title */
+  font-family: Syne;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.line-star {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  display: flex;
+}
+
+.back-arrow {
+  margin: 0.5rem
+}
+
+.forward-arrow {
+  margin: 0.5rem
+}
+
+.content-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.content-item-nav {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.content-item-nav-text {
+  color: var(--Grey-scale-1000, #000);
+  /* Body text 18 */
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 1.5rem;
+}
+
+.content-item-nav-text-selected {
+  color: var(--Grey-scale-1000, #000);
+  /* Subtitles */
+  font-family: Syne;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 1.5rem;
+}
+
+.product-card {
+  height: 8rem;
+  width: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+
+.product-grid {
+  display: flex;
+  margin: 1rem;
+  justify-content: space-around;
+}
+
+.news-sub-text {
+  color: var(--Grey-Scale-200, rgba(255, 255, 255, 0.50));
+  /* Body text 18 */
+  font-family: Work Sans;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.news-text {
+  color: var(--Grey-Scale-200, rgba(255, 255, 255, 0.50));
+  /* Subtitles */
+  font-family: Syne;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contact-us {
+  background-image: url("./assets/18591063.png");
+  margin-top: 6rem;
+}
+
+.contect-us-upper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-left {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.contact-right {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+
+.touch {
+  color: var(--Grey-scale-000, #FFF);
+  /* H1 title */
+  font-family: Syne;
+  font-size: 8.4375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 6.4125rem;
+  /* 76% */
+  margin: 0.5rem;
+  text-align: left;
+}
+
+.contact-bottom {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+/*  */
