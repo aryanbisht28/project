@@ -306,4 +306,131 @@
 }
 
 
-/*  */
+/* Default styles */
+
+/* ... (existing styles) ... */
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .App-header {
+    height: 3.125rem;
+  }
+
+  .header-left,
+  .header-right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .header-left-line {
+    height: 1rem;
+  }
+
+  .free-del-text {
+    font-size: 0.7rem;
+  }
+
+  .banner {
+    height: auto;
+  }
+
+  .banner-header,
+  .banner-header-line,
+  .banner-header-nav,
+  .nav-container,
+  .nav-item,
+  .banner-text1,
+  .banner-text2,
+  .banner-text3 {
+    width: 100%;
+  }
+
+  .banner-header-text {
+    font-size: 0.75rem;
+  }
+
+  .banner-text1,
+  .banner-text3 {
+    font-size: 3rem;
+  }
+
+  .orange-box {
+    width: 100%;
+    left: 0;
+    top: 5rem;
+  }
+
+  .man,
+  .star {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .new-product-text {
+    font-size: 2rem;
+  }
+
+  .line-star {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .arrow {
+    flex-direction: column;
+  }
+
+  .back-arrow,
+  .forward-arrow {
+    margin: 0.3rem;
+  }
+
+  .content-item {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .content-item-nav,
+  .content-item-nav-text,
+  .content-item-nav-text-selected {
+    width: 100%;
+    text-align: center;
+  }
+
+  .product-card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+
+  .news-sub-text,
+  .news-text {
+    font-size: 0.7rem;
+  }
+
+  .contact-us {
+    margin-top: 3rem;
+  }
+
+  .contect-us-upper {
+    flex-direction: column;
+  }
+
+  .contact-left,
+  .contact-right {
+    margin: 0.5rem;
+  }
+
+  .touch {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
